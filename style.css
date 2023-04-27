@@ -112,7 +112,7 @@ svg {
   padding: 15px;
   margin: 10px;
 }
-.three > div > img {
+.three > div > a > img {
   width: 24px;
 }
 
