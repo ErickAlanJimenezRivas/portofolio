@@ -197,6 +197,7 @@ svg {
 
 /*****************Projects**********************/
 .wrapper {
+  position: relative;
   margin: 5em auto;
   max-width: 1000px;
   background-color: var(--card);
