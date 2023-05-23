@@ -4,14 +4,14 @@
 
 :root {
   /* --blue: rgb(3, 25, 68); */
-  --blue: rgb(249, 249, 249);
+  --blue: black;
   --card: rgba(255, 255, 255, 0.498);
-  --body: #3F51B5;
-  --button: #6378f4;
+  --body: #abc4ff;
+  --button: #abc4ff;
 }
 
 body {
-  background-color: black;
+  background-color: var(--body);
   font: normal 75% Arial, Helvetica, sans-serif;
 }
 
@@ -80,7 +80,7 @@ svg {
   margin-top: 10rem;
 }
 .two > div > h1 {
-  color: white;
+  color: var(--blue);
   text-align: center;
   font-size: 46px;
 }
